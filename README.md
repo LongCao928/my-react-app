@@ -27,6 +27,15 @@
 
 您不必使用``弹射''。策划的功能集适用于中小型部署，您应该没有义务使用此功能。但是，我们了解到，如果您在准备好后，该工具就无法自定义，这将是无用的。
 
+### `npm run analyze`
+
+分析捆绑包大小
+
+```
+npm run build
+npm run analyze
+```
+
 ## 学习更多
 
 [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
@@ -67,7 +76,7 @@ my-react-app
 ├── .gitignore
 ├── public
 │   ├── favicon.ico
-│   ├── index.html
+│   ├── index.html    // 页面模板
 │   ├── logo192.png
 │   ├── logo512.png
 │   ├── manifest.json
@@ -77,7 +86,7 @@ my-react-app
     ├── App.js
     ├── App.test.js
     ├── index.css
-    ├── index.js
+    ├── index.js    // js入口
     ├── logo.svg
     ├── serviceWorker.js
     └── setupTests.js
