@@ -1,6 +1,9 @@
 import logo from './logo.svg';
 import './App.css';
 
+import Button from './button/button';
+// import { Component } from 'react';
+
 function App() {
   return (
     <div className="App">
@@ -18,8 +21,29 @@ function App() {
           Learn React
         </a>
       </header>
+      <Button />
     </div>
   );
 }
+
+// Code Splitting
+/* class App extends Component {
+  handleClick = () => {
+    import('./moduleA')
+      .then(({ moduleA }) => {
+        console.log(moduleA)
+      })
+      .catch(err => {
+        console.log(err)
+      });
+  };
+  render() {
+    return (
+      <div>
+        <button onClick={this.handleClick}>Load</button>
+      </div>
+    );
+  }
+} */
 
 export default App;
