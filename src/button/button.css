@@ -8,10 +8,17 @@ button {
   border-radius: 5px;
   padding: 5px 10px;
   cursor: pointer;
+  color: #282c34;
+  font-weight: 400;
+  font-size: 14px;
+  max-width: 65px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
 }
 button:hover {
   /* border: 1px solid lightgreen; */
   border: none;
-  background: green;
+  background: #282c34;
   color: #fff;
 }

@@ -26,3 +26,22 @@ reportWebVitals();
 // npm run build 
 // npm install -g serve
 // serve -s build
+
+const $ = window.$
+console.log($)
+
+// 添加 ts
+// npm install --save typescript @types/node @types/react @types/react-dom @types/jest
+
+// environment variables
+console.log(process.env.NODE_ENV)
+console.log(process.env.PUBLIC_URL)
+
+// REACT_APP_ 开头定义环境变量
+console.log(process.env.REACT_APP_NAME)
+
+// 左侧文件优先级高于右侧
+// npm start: .env.development.local, .env.local, .env.development, .env
+// npm run build: .env.production.local, .env.local, .env.production, .env
+// npm test: .env.test.local, .env.test, .env (note .env.local is missing)
+

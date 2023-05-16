@@ -15,7 +15,7 @@ class Button extends Component {
   render() {
     return <div className='Button'>
       <button onClick={this.handleClick}>按钮</button>
-      <button className={styles.error}>Error Button</button>
+      <button className={styles.error}>module.css按钮</button>
     </div>
   }
 }
