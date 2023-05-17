@@ -11,6 +11,22 @@ import {
   Navigate
 } from 'react-router-dom'
 
+/** Routes
+ * Routes 在应用的任何地方渲染，<Routes> 都会匹配当前位置的一组子路由。
+ * 每当位置改变时，<Routes> 会查找所有子路由以找到最佳匹配并渲染 UI 的分支。
+ * <Route> 元素可以嵌套表示嵌套的 UI，也对应嵌套的 URL 路径。
+ * 父路由通过渲染一个 <Outlet /> 来渲染子路由。
+ * 
+ *  提示：使用 createBrowserRouter 数据路由器时，那么很少使用这个组件。<Routes> 不能利用 RouterProvider 提供的 Data APIs。
+ * */
+
+/** Route
+ * <Route> 路由是 React 路由应用程序中最重要的部分，它们将 URL 段与组件、数据加载和数据突变耦合起来。
+ * 通过路由嵌套，复杂的应用布局和数据依赖关系变得简单和具有声明。
+ * 
+ * 使用 createBrowserRouter(jsx: createRoutesFromElements) 声明路由。
+ */
+
 export default function App() {
   return (
     <AuthProvider >
