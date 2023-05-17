@@ -4,13 +4,17 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+import { BrowserRouter } from 'react-router-dom'
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   // StrictMode 严格模式。用来检查项目中潜在问题的工具。
   // 与 Fragment 一样，StrictMode 不会渲染任何可见的 UI。它为其后代元素触发额外的检查和警告。
   <React.StrictMode>
-    <App />
+    <BrowserRouter>
+      <App />
+    </BrowserRouter>
   </React.StrictMode>
 );
 
