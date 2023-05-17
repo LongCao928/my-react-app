@@ -55,6 +55,7 @@ function App() {
         parent route elements. See the note about <Outlet> below. */}
       <Routes>
         <Route path="/" element={<Layout />}>
+          {/* index 默认子路由 */}
           <Route index element={<Home />}></Route>
           <Route path="about" element={<About />}></Route>
           <Route path="dashboard" element={<Dashboard />}></Route>
