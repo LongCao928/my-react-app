@@ -1,12 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
+// import App from './react-router-example/basic-data-router/App';
 // import App from './App';
-// import App from './auth/App'
-import App from './basic-data-router/App'
+import App from './react-router-example/auth/App';
 import reportWebVitals from './reportWebVitals';
 
-// import { BrowserRouter } from 'react-router-dom'
+import { BrowserRouter } from 'react-router-dom'
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -15,12 +15,12 @@ root.render(
   // 与 Fragment 一样，StrictMode 不会渲染任何可见的 UI。它为其后代元素触发额外的检查和警告。
   <React.StrictMode>
     {/* Routes 创建的Route，使用 BrowserRouter */}
-    {/* <BrowserRouter>
+    <BrowserRouter>
       <App />
-    </BrowserRouter> */}
+    </BrowserRouter>
 
     {/* createBrowserRouter 创建Router，使用 RouterProvider */}
-    <App />
+    {/* <App /> */}
   </React.StrictMode>
 );
 
