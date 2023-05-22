@@ -5,7 +5,8 @@ import './index.css';
 // import App from './App';
 // import App from './react-router-example/auth/App';
 // import App from './react-router-example/custom-filter-link/App';
-import App from './react-router-example/custom-link/App';
+// import App from './react-router-example/custom-link/App';
+import App from './react-router-example/custom-query-parsing/App';
 import reportWebVitals from './reportWebVitals';
 
 import { BrowserRouter } from 'react-router-dom'

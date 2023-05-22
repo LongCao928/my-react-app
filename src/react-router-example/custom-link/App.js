@@ -21,7 +21,7 @@ import {
 
 export default function App() {
   return (
-    <div>
+    <div className='example-app'>
       <h1>Custom Link Example</h1>
       <p>
         This example demonstrates how to create a custom{" "}

@@ -15,6 +15,7 @@
     "web-vitals": "^2.1.4"
   },
   "devDependencies": {
+    "jsurl": "^0.1.5",
     "sass": "^1.62.1"
   },
   "scripts": {
