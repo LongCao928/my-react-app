@@ -4,6 +4,9 @@ import React from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { decrement, increment } from './counterSlice';
 
+// 在 React 组件中使用 react-redux 的 useSelector、useDispatch 钩子
+// useSelector 钩子从数据存储中读取数据
+// useDispatch 钩子获取dispatch函数，并根据需要分发操作
 export function Counter() {
   const count = useSelector((state) => state.counter.value)
   const dispatch = useDispatch()
