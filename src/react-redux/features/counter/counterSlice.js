@@ -1,5 +1,6 @@
 import { createSlice } from "@reduxjs/toolkit";
 
+// 使用 createSlice 创建一个 Redux  "slice" reducer
 export const counterSlice = createSlice({
   name: 'counter',
   initialState: {
@@ -22,7 +23,7 @@ export const counterSlice = createSlice({
   },
 })
 
-// Action creators are generated for each case reducer function
+// Action 生成器为每个 case reducer 函数生成
 export const { increment, decrement, incrementByAmount } = counterSlice.actions
 
 export default counterSlice.reducer

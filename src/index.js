@@ -22,6 +22,8 @@ import { Provider } from 'react-redux';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
+  // 为 React 应用组件提供 Redux store
+  // Provide 组件使得任何需要访问 Redux store 的嵌套组件都可以使用 Redux store。
   <Provider store={store}>
     <App />
   </Provider>
